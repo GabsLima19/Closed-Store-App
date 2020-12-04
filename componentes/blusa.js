@@ -1,9 +1,9 @@
 import React from 'react';
-import { View, Image, Text, TouchableOpacity, Linking } from 'react-native';
+import { View, Image, Text, TouchableOpacity, Linking, ScrollView } from 'react-native';
 
 const BlusasApp = () => {
     return(      
-        
+        <ScrollView>
         <View style={{marginTop: 10}}>
 
             <Text style={{fontSize: 20, fontWeight: "bold", textAlign: "center"}}>Blusas</Text>
@@ -75,6 +75,7 @@ const BlusasApp = () => {
             </View>
 
         </View>
+        </ScrollView>
     );
 }
 
