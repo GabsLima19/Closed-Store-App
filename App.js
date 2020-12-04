@@ -8,6 +8,7 @@ import CalçasApp from './componentes/calça';
 import TenisApp from './componentes/tenis';
 import BonesApp from './componentes/bone';
 import SobreApp from './componentes/sobre';
+import MyInlineWeb from './componentes/sobre';
 
 const Stack = createStackNavigator();
 
@@ -20,7 +21,7 @@ function LojaClosedApp() {
         <Stack.Screen name="Calças/Bermudas" component={CalçasApp} />
         <Stack.Screen name="Tênis" component={TenisApp} />
         <Stack.Screen name="Bonés" component={BonesApp} />
-        <Stack.Screen name="Sobre" component={SobreApp} />
+        <Stack.Screen name="Sobre" component={MyInlineWeb} />
       </Stack.Navigator>
     </NavigationContainer>
   );
