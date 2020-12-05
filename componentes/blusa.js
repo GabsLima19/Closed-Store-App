@@ -1,7 +1,7 @@
 import React from 'react';
-import { View, Image, Text, TouchableOpacity, Linking, ScrollView } from 'react-native';
+import { View, Image, Text, TouchableOpacity, Linking, ScrollView,Button } from 'react-native';
 
-const BlusasApp = () => {
+const BlusasApp = ({navigation}) => {
     return(      
         <ScrollView>
         <View style={{marginTop: 10}}>
@@ -73,7 +73,10 @@ const BlusasApp = () => {
                 <Text>Tamanhos disponíveis: | 2 | 3 | 5 |</Text>
                 <Text style={{fontWeight: "bold"}}>R$ 74,90</Text>
             </View>
-
+            <Button 
+        title="Voltar"
+        onPress={() => navigation.goBack()}
+    />
         </View>
         </ScrollView>
     );

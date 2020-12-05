@@ -10,11 +10,11 @@ const HomeApp = ({ navigation }) => {
         <SafeAreaView style={styles.container}>
         <View style={{flex: 0, justifyContent: 'center', alignItems: 'center'}}>
             <Image 
-                style={{width: 100, height: 70, marginTop: 30}}
+                style={{width: 200, height: 200, marginTop: 30, borderRadius: 10}}
                 source={require('../imagens/logo.jpg')}
             />
 
-            <Text style={{padding: 20, marginTop: 40, fontSize: 20}}>Catálogo</Text>
+            <Text style={{padding: 20, marginTop: 30, fontSize: 30, fontFamily: 'monospace'}}>Catálogo</Text>
 
             <Button 
                 title="Blusas"
@@ -74,6 +74,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         marginHorizontal: 20,
+        backgroundColor: '#D3D3D3',
       }
     });
     

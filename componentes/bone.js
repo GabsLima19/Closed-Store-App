@@ -1,8 +1,8 @@
 import React from 'react';
-import { View, Image, Text, TouchableOpacity, Linking } from 'react-native';
+import { View, Image, Text, TouchableOpacity, Linking,Button} from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 
-const BonesApp = () => {
+const BonesApp = ({navigation}) => {
     return(
         <ScrollView>
         <View style={{marginTop: 10}}>
@@ -74,7 +74,10 @@ const BonesApp = () => {
             <Text>Tamanhos disponíveis: Unico</Text>
             <Text style={{fontWeight: "bold"}}>R$ 74,90</Text>
         </View>
-
+        <Button 
+        title="Voltar"
+        onPress={() => navigation.goBack()}
+    />
     </View>
     </ScrollView>
     );
