@@ -1,20 +1,10 @@
-# FlowSystem
-<div align="center">
-<img src="https://github.com/GabsLima19/Bot-Telegram-FlowSystem/blob/main/logo-flowsystem.jpeg" height="200px" width="200px">
-</div>
-
-<br>
-
+# Closed Store App
 ## Descrição do Projeto
-
-
+O Closed Store App é um protótipo de aplicativo de um fictícia loja de roupas feito para trabalho acadêmico.
 <br>
 
 ## Tecnologias
-- Arduino Leonardo
-- Arduino IDE (C, C++) 
-- Water Flow Sensors
-- Python, CSV
-- Telegram Bot API
+- Node JS
+- React Native
 
 <br>
